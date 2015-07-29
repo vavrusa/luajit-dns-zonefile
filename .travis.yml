@@ -1,0 +1,9 @@
+language: lua
+install:
+  - make
+script:
+  - make check
+sudo: false
+cache:
+  directories:
+  - ${HOME}/.local
